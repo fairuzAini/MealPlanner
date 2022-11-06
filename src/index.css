@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: rgba(234, 140, 72, 0.756);
+}
+
+a{
+  text-decoration: none;
+  color: #e0e0e0;
+}
+
+#category{
+  color: rgb(255, 255, 255);
+  background-color: rgba(208, 99, 21, 0.756);
+  font-family: 'Comfortaa', cursive;
+  margin-top: 1%;
+}
+
+.hello{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 1%;
+}
+.welcome{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 5px;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.amazed{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: 5px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.box{
+  background-color: rgba(187, 110, 56, 0.756);
+  height: 30%;
+  width: 50%;
+  border-radius: 5%;
+  border: solid;
+  margin-left: 20%;
+  padding: 5%;
+}
+
+.output{
+  background-color: rgba(187, 110, 56, 0.756);
+  height: 30%;
+  width: 50%;
+  border-radius: 5%;
+  border: solid;
+  margin-left: 20%;
+  padding: 3%;
+  padding-right: 15%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.intro{
+  font-family: 'Baloo 2', cursive;
+}
+
+.search{
+  color: #e0e0e0;
+  background-color: rgb(187, 110, 56);
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+  margin-top: 5%;
+}
+
+.food{
+  color: #e0e0e0;
+  background-color: rgb(187, 110, 56);
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+}
+
+.planner{
+  text-decoration: none;
+  color: #e0e0e0;
+}

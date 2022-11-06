@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meal Planner</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Baloo+2&family=Comfortaa:wght@500&family=Shadows+Into+Light&family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+  <body>
+<h1 class="hello">💖 HELLO THERE !</h1>
+<p class="welcome">Welcome to MyMeal</p>
+<p class="amazed">Do you craving something one of these but do not know how to cook? Choose one of the menu and click search to find out !</p>
+<div class="box"><!--BOX FOR MENU, SEARCH, LINK TO NEXT PAGE-->
+<button onclick="myFunction()" class="food">Food Category</button>
+<div id="myDropdown"><!--DROP DOWN MENU FOR USER CHOOSE FOOD (ONLY ONE)-->
+    <select id="category">
+    <option value="seafood">Seafood</a>
+    <option value="pasta">Pasta</a>
+    <option value="beef">Beef</a>
+    <option value="lamb">Lamb</a>
+    <option value="chicken">Chicken</a>
+    </select>
+<button onclick="buttonClicked()" class="search">Search</button>
+<button class="search"><a href="#" onclick="self.close();">Exit</a></button><br>
+<p>Do you want to make your own Meal Planner for your everyday meal ?</p>
+<a class="planner" href="index.html">Click Here!</a>
+</div></div><br>
+<div class="output"><!--OUTPUT WILL DISPLAY IN APP (NOT CONSOLE)-->
+    <div id="area">Area : </div><br>
+    <div id="Category">Category : </div><br>
+    <div id="meal">Meal : </div><br>
+    <div id="source">Source : </div><br>
+    <div id="video">Youtube :</div>
+</div>
+    
+
+  <script src="homepage.js"></script>
+  </body>
+</html>
